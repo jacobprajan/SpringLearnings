@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<!-- byName example -->
+	<bean id="application" class="com.spring.dev.domain.Application"
+		autowire="byName" />
+
+	<bean id="applicationUser" class="com.spring.dev.domain.ApplicationUser">
+		<property name="name" value="superUser" />
+	</bean>
+
+	<!-- Notice that we have set the autowire="byName" attribute. We are nowhere 
+		referring to applicationUser bean explicitly. Since ‘application’ class have 
+		a property name ‘applicationUser’ which matches with the name of a bean defined 
+		in Spring context, that bean will be wired automatically. -->
+
+</beans>

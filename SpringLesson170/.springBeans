@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.4.201503051146-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>WebContent/WEB-INF/offers-servlet.xml</config>
+		<config>src/com/spring/config/dao-context.xml</config>
+		<config>src/com/spring/config/service-context.xml</config>
+		<config>src/com/spring/config/security-context.xml</config>
+		<config>test/com/spring/test/config/datasource.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[SpringConfig]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>src/com/spring/config/dao-context.xml</config>
+				<config>src/com/spring/config/security-context.xml</config>
+				<config>src/com/spring/config/service-context.xml</config>
+				<config>WebContent/WEB-INF/offers-servlet.xml</config>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>

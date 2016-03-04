@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<!-- constructor example -->
+	<bean id="performer" class="com.spring.dev.domain.Performer"
+		autowire="constructor" />
+
+	<bean id="instrument" class="com.spring.dev.domain.Instrument">
+		<property name="name" value="PIANO" />
+	</bean>
+
+</beans>
+
+<!-- Notice that we have set the autowire="constructor" attribute. We are 
+	nowhere referring to instrument bean explicitly from performer. Since ‘performer’ 
+	class have a constructor which accepts an argument of type ‘Instrument’ which 
+	matches with the type of a bean ‘instrument’ defined in Spring context, that 
+	bean will be wired automatically. -->

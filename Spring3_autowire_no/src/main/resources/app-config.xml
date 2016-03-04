@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<!-- default example (autowire="no") -->
+	<bean id="driver" class="com.spring.dev.domain.Driver" autowire="no">
+		<property name="license" ref="license" />
+	</bean>
+
+	<bean id="license" class="com.spring.dev.domain.License">
+		<property name="number" value="123456ABCD" />
+	</bean>
+
+</beans>
+
+<!-- Notice that this time we have set autowire="no" attribute. This autowire 
+	attribute have no effect anymore on bean wiring , and can be removed altogether.There 
+	is no more auto-wiring here. 
+	Also notice that we have set the ref atttibute to refer to a specific bean. 
+	If we don’t do that, driver’s license property 	will be null. 
+	-->

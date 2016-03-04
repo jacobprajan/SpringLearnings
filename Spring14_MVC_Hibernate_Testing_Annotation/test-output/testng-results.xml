@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3312" started-at="2016-02-17T14:58:56Z" finished-at="2016-02-17T14:59:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3312" started-at="2016-02-17T14:58:56Z" finished-at="2016-02-17T14:59:00Z">
+      <class name="com.spring.test.dao.EmployeeDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2016-02-17T14:58:56Z" finished-at="2016-02-17T14:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2386" started-at="2016-02-17T14:58:56Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="167" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.deleteEmployeeByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="283" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployeeByInvalidSsn()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="deleteEmployeeByInvalidSsn" duration-ms="147" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeByInvalidSsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="10" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.deleteEmployeeByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="21" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.deleteEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteEmployeeBySsn()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="deleteEmployeeBySsn" duration-ms="5" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.deleteEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="11" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="findAllEmployees" duration-ms="3" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="15" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="14" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="findById" duration-ms="11" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="20" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="13" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="findEmployeeBySsn" duration-ms="18" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="7" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="setUp" is-config="true" duration-ms="43" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="saveEmployee" duration-ms="73" started-at="2016-02-17T14:58:59Z" finished-at="2016-02-17T14:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-02-17T14:59:00Z" finished-at="2016-02-17T14:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.spring.test.dao.EmployeeDaoImplTest@67b92f0a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-02-17T14:59:00Z" finished-at="2016-02-17T14:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spring.test.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.spring.test.dao.EmployeeDaoImplTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
